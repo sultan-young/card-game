@@ -1,0 +1,25 @@
+{
+  "name": "card-game",
+  "version": "0.0.1",
+  "description": "卡牌游戏",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "sultan",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "8",
+    "typescript": "^4.3.5",
+    "url-loader": "^4.1.1"
+  }
+}

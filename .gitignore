@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+/dist
+/dll
+.fun
+/*-dist
+/tests/e2e/videos/
+/tests/e2e/screenshots/
